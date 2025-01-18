@@ -1,4 +1,4 @@
-module github.com/Parasdeveloper8/gowebguard.git
+module github.com/Parasdeveloper8/gowebguard
 
 go 1.23.5
 
