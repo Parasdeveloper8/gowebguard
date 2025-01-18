@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/Parasdeveloper8/gowebguard.git/webguard"
+	"github.com/Parasdeveloper8/gowebguard/webguard"
 	"github.com/gin-gonic/gin"
 )
 
