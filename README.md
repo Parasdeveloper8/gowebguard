@@ -7,7 +7,7 @@ To use this package , follow given instructions.
 Use this **command** to get started :-
 
 ```go
-    go get github.com/Parasdeveloper8/gowebguard@v2.0.0
+    go get github.com/Parasdeveloper8/gowebguard/v2@v2.0.2
 ```
 After installing ,use like this :-
 
