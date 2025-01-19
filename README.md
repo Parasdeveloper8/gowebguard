@@ -1,6 +1,7 @@
 # gowebguard
 
 ## Introducing GoWebGuard
+:Your Webapp defender
 
 This package is very helpful for you if you want to secure your web application.
 To use this package , follow given instructions.
@@ -46,6 +47,13 @@ If you are using tools like bootstrap , do this -
         r.Use(webguard.CSP(&header))
 ```
 -- You can load scripts from other resources also just update header.
+
+```go
+    //default csp header value
+    csp:= "default-src 'self';script-src 'self' 'unsafe-inline' 'unsafe-eval'; object-src 'none'; style-src 'self' 'unsafe-inline';
+    img-src 'self'; connect-src 'self'; font-src 'self'; frame-src 'none';"
+    // These values will block all external resources like jquery,bootstrap,etc.
+```
 
 This package secures web application by setting headers like **ContentSecurityPolicy**,**StrictTransportSecurity**,**XContentTypeOptions**,**XFrameOptions**.
 
