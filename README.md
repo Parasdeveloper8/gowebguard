@@ -39,9 +39,17 @@ Now everything will work fine but if you wanna customize configurations,create a
  r.Use(webguard.WebGuard(headers))
  r.Use(webguard.CSP(cheader))
 ```
+If you are using tools like bootstrap , do this -
+```go
+  //csp struct
+	header := webguard.Csp{ContentSecurityPolicy: "style-src:'self' bootstrap.web.link"}
+        r.Use(webguard.CSP(&header))
+```
+-- You can load scripts from other resources also just update header.
 
 This package secures web application by setting headers like **ContentSecurityPolicy**,**StrictTransportSecurity**,**XContentTypeOptions**,**XFrameOptions**.
 
+If you like ❤ this **star this repo ✨**
 
 **This package will be improved continuously**.
 
