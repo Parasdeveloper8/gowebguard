@@ -4,7 +4,9 @@
 ### Your Webapp defender
 
 This package is very helpful for you if you want to secure your web application.
+
 To use this package , follow given instructions.
+
 Use this **command** to get started :-
 
 ```go
@@ -46,7 +48,7 @@ If you are using tools like bootstrap , do this -
 	header := webguard.Csp{ContentSecurityPolicy: "style-src:'self' bootstrap.web.link"}
         r.Use(webguard.CSP(&header))
 ```
--- You can load scripts from other resources also just update header.
+- You can load scripts from other resources also just update header.
 
 ```go
     //default csp header value
