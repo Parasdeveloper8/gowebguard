@@ -1,7 +1,7 @@
 # gowebguard
 
 ## Introducing GoWebGuard
-:Your Webapp defender
+### Your Webapp defender
 
 This package is very helpful for you if you want to secure your web application.
 To use this package , follow given instructions.
